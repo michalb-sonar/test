@@ -26,5 +26,5 @@
 # is only available from the command line. Turn it on by uncommenting the
 # entries below.
 ###############################################################################
-*.cs diff=csharp
+*.cs text diff=csharp
 *.md text
