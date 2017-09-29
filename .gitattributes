@@ -24,12 +24,12 @@
 *.xml     text
 
 # Declare files that will always have CRLF line endings on checkout.
-*.sln text eol=crlf
+*.sln     merge=binary
 
 # Denote all files that are truly binary and should not be modified.
-*.png     binary
-*.jepg    binary
-*.sdf     binary
-*.ico     binary
+*.png     merge=binary
+*.jepg    merge=binary
+*.sdf     merge=binary
+*.ico     merge=binary
 
 # if the file is not on the list, git will use heuristic to determine whether the file is text or binary
